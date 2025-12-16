@@ -1,9 +1,11 @@
 package com.example.jpa_h2_demo.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.persistence.*;
 
 @Entity
+@JsonPropertyOrder({"id", "logradouro", "numero", "bairro", "cidade", "endereco", "estado"})
 public class Endereco {
 
     @Id
