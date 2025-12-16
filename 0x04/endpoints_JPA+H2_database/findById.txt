@@ -1,0 +1,8 @@
+{
+    "id": 2,
+    "nome": "Ze Fulano",
+    "idade": 40,
+    "email": "zezinho@email.com",
+    "telefones": [],
+    "enderecos": []
+}
