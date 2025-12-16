@@ -22,8 +22,8 @@
             "numero": "487",
             "bairro": "JARDIM BONITO",
             "cidade": "CIDADE DO NORTE",
-            "estado": "SP",
-            "endereco": "L\u00c1 LONGE"
+            "endereco": "L\u00c1 LONGE",
+            "estado": "SP"
         }
     ]
 }
