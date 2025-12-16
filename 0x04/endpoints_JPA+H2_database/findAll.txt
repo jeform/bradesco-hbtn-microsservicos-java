@@ -18,8 +18,8 @@
                 "numero": "100",
                 "bairro": "CENTRO",
                 "cidade": "CIDADE DO NORTE",
-                "estado": "SP",
-                "endereco": "ALI PERTO"
+                "endereco": "ALI PERTO",
+                "estado": "SP"
             }
         ]
     },
@@ -47,8 +47,8 @@
                 "numero": "487",
                 "bairro": "JARDIM BONITO",
                 "cidade": "CIDADE DO NORTE",
-                "estado": "SP",
-                "endereco": "LÁ LONGE"
+                "endereco": "LÁ LONGE",
+                "estado": "SP"
             }
         ]
     }
