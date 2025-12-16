@@ -1,0 +1,17 @@
+http://localhost:8081/user-api/users/user-id/5
+You have entered valid ID
+
+http://localhost:8081/user-api/users/user-id/0
+{"status":400,"message":"You have entered ID 0 invalid."}
+
+http://localhost:8081/user-api/users/user-cpf/0
+{"status":400,"message":"You have entered CPF 0 invalid."}
+
+http://localhost:8081/user-api/users/user-cpf/1234567899876543
+{"status":400,"message":"You have entered CPF 1234567899876543 invalid."}
+
+http://localhost:8081/user-api/users/user-cpf/12345678998
+You have entered valid CPF
+
+http://localhost:8081/user-api/users/user-name/JOSE
+You have entered valid USERNAME
