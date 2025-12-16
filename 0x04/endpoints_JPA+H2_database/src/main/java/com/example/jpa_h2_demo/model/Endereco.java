@@ -11,10 +11,10 @@ public class Endereco {
     private Long id;
 
     private String logradouro;
+    private String endereco;
     private String numero;
     private String bairro;
     private String cidade;
-    private String endereco;
     private String estado;
 
     @ManyToOne
@@ -25,12 +25,12 @@ public class Endereco {
     public Endereco() {
     }
 
-    public Endereco(String logradouro, String numero, String bairro, String cidade, String endereco, String estado) {
+    public Endereco(String logradouro, String endereco, String numero, String bairro, String cidade, String estado) {
         this.logradouro = logradouro;
+        this.endereco = endereco;
         this.numero = numero;
         this.bairro = bairro;
         this.cidade = cidade;
-        this.endereco = endereco;
         this.estado = estado;
     }
 
@@ -48,6 +48,14 @@ public class Endereco {
 
     public void setLogradouro(String logradouro) {
         this.logradouro = logradouro;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     public String getNumero() {
@@ -72,14 +80,6 @@ public class Endereco {
 
     public void setCidade(String cidade) {
         this.cidade = cidade;
-    }
-
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
     }
 
     public String getEstado() {
