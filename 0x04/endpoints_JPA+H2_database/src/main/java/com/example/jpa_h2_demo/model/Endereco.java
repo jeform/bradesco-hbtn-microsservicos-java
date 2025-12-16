@@ -14,8 +14,8 @@ public class Endereco {
     private String numero;
     private String bairro;
     private String cidade;
-    private String endereco;
     private String estado;
+    private String endereco;
 
     @ManyToOne
     @JoinColumn(name = "cliente_id")
@@ -25,13 +25,13 @@ public class Endereco {
     public Endereco() {
     }
 
-    public Endereco(String logradouro, String numero, String bairro, String cidade, String endereco, String estado) {
+    public Endereco(String logradouro, String numero, String bairro, String cidade, String estado, String endereco) {
         this.logradouro = logradouro;
         this.numero = numero;
         this.bairro = bairro;
         this.cidade = cidade;
-        this.endereco = endereco;
         this.estado = estado;
+        this.endereco = endereco;
     }
 
     public Long getId() {
@@ -74,20 +74,20 @@ public class Endereco {
         this.cidade = cidade;
     }
 
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
-    }
-
     public String getEstado() {
         return estado;
     }
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     public Cliente getCliente() {
