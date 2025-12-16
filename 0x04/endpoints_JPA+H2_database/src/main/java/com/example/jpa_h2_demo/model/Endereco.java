@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.persistence.*;
 
 @Entity
-@JsonPropertyOrder({"id", "logradouro", "numero", "bairro", "cidade", "endereco", "estado"})
+@JsonPropertyOrder({"id", "logradouro", "numero", "bairro", "cidade", "estado", "endereco"})
 public class Endereco {
 
     @Id
@@ -16,8 +16,8 @@ public class Endereco {
     private String numero;
     private String bairro;
     private String cidade;
-    private String endereco;
     private String estado;
+    private String endereco;
 
     @ManyToOne
     @JoinColumn(name = "cliente_id")
@@ -76,20 +76,20 @@ public class Endereco {
         this.cidade = cidade;
     }
 
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
-    }
-
     public String getEstado() {
         return estado;
     }
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     public Cliente getCliente() {
