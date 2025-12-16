@@ -1,0 +1,11 @@
+Teste 1 - Usuário e senha não informados:
+URL: http://localhost:8080/messages/login
+Resposta: USUÁRIO E SENHA NÃO INFORMADOS
+
+Teste 2 - Usuário e senha com mais de 15 caracteres:
+URL: http://localhost:8080/messages/login?user=usuariocommaisdequinzecaracteres&password=senhacommaisdequinzecaracteres
+Resposta: USUÁRIO E SENHA INVÁLIDOS
+
+Teste 3 - Login efetuado com sucesso:
+URL: http://localhost:8080/messages/login?user=admin&password=123456
+Resposta: LOGIN EFETUADO COM SUCESSO !!!

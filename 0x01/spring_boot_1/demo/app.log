@@ -1,0 +1,21 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-12-15T22:09:36.173-03:00  INFO 90961 --- [demo] [           main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 90961 (/Users/jeform/Development/bradesco-hbtn-microsservicos-java/0x01/spring_boot_1/demo/target/demo-0.0.1-SNAPSHOT.jar started by jeform in /Users/jeform/Development/bradesco-hbtn-microsservicos-java/0x01/spring_boot_1/demo)
+2025-12-15T22:09:36.174-03:00  INFO 90961 --- [demo] [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-12-15T22:09:36.514-03:00  INFO 90961 --- [demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-15T22:09:36.518-03:00  INFO 90961 --- [demo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-15T22:09:36.518-03:00  INFO 90961 --- [demo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-15T22:09:36.534-03:00  INFO 90961 --- [demo] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-15T22:09:36.535-03:00  INFO 90961 --- [demo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 328 ms
+2025-12-15T22:09:36.665-03:00  INFO 90961 --- [demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-12-15T22:09:36.670-03:00  INFO 90961 --- [demo] [           main] com.example.demo.DemoApplication         : Started DemoApplication in 0.641 seconds (process running for 0.796)
+2025-12-15T22:09:41.654-03:00  INFO 90961 --- [demo] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15T22:09:41.654-03:00  INFO 90961 --- [demo] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-15T22:09:41.654-03:00  INFO 90961 --- [demo] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
